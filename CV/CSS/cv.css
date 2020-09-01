@@ -22,7 +22,7 @@ body {
     top: 30px;
     right: 85px;
     width: 900px;
-    height: 900px;
+    height: 2000px;
     
 
 
@@ -87,10 +87,14 @@ body {
 
   #left_side{
     /*First, we put the background*/
-    background-image: url("../Images/Left_Side_A.jfif");
+    background-image: url("../Images/Left_Side_B.jfif");
     background-position: center; 
     background-size: cover;
     background-repeat: repeat;
+
+    /*Border*/
+    border-style: solid;
+    border-width: 2px;
 
     /*After we size it*/
     position: absolute;
@@ -110,8 +114,12 @@ body {
     position: absolute;
     top:250px;
     right: 0px;
-    width: 700px;
+    width: 693px;
     height: 850px;
+
+     /*Border*/
+     border-style: solid;
+     border-width: 2px;
 
 
     /*Center the text*/
@@ -131,27 +139,32 @@ body {
 
   /*Those are for the different font size or color that are used in the website*/
   .subtitle{
-  color:#2689A8;
-  font-size:50px;
+    border-bottom: 2px solid black;
+    width   : 50%;
+    text-align: center;
+    color:#2689A8;
+    font-size:50px;
   }
 
   .subtitleSmall{
     color:#2689A8;
-  font-size:30px;
+    font-size:30px;
   }
 
   .info{
     color:black;
-  font-size:30px;
+    font-size:30px;
   }
 
   .subtitle_right{
+    border-bottom: 2px solid black;
     color:black;
     font-size:50px;
-    }
+  }
 
 
     /*Moving the line in the right section to make it pretty*/
+    /*
     #Line1{
       position: absolute;
       width:300px; 
@@ -164,3 +177,4 @@ body {
       right: 150px;
       top:400px;
     }
+    */
