@@ -1,15 +1,166 @@
+@font-face {
+  font-family: customFont;
+  src: url("../Font/ostrich-sans-master/webfonts/ostrich-sans-regular.woff");
+}
 
+*{
+  font-family: customFont;
+}
+
+body {
+  /*To set de background picture*/
+  background-image: url("../Images/Fond_A.jpg");
+  background-position: center; 
+  background-size: cover;
+  background-repeat: repeat;
+
+}
 
 .container {
-    position: relative;
-    font-family: Arial;
+    /*To place the container in the center of the screen*/
+    position: absolute;
+    top: 30px;
+    right: 85px;
+    width: 900px;
+    height: 900px;
+    
+
+
+    /*The border of the container*/
+    border-radius: 25px;
+    padding: 100px;
+
+
+    /*To make the container pretty*/
+    background-color: white;
+  }
+
+  #titre{
+    /*Background for the title*/
+    background-image: url("../Images/Titre_A.jfif");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: repeat;
+
+    /*Position an size of the black banner where the title is*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 1100px;
+    height: 250px;
+
+    /*Position of the title text*/
+    text-align: right;
   }
   
-.text-block {
-    position: relative;
-    bottom:  80%;
-    right:  80%;
+
+  #photoProfil{
     background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+
+    /*This line is for you to put your profil picture*/
+    /*background-image: url("");*/
+
+    background-position: center; 
+    background-size: cover;
+    background-repeat: repeat;
+
+
+    /*Here the part to size the profil picture*/
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+
+
+    /*To center the text i've put*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  #cv{
+  /*To size the font and change the color*/
+  font-size:120px;
+  color:white;
+  }
+
+  #left_side{
+    /*First, we put the background*/
+    background-image: url("../Images/Left_Side_A.jfif");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: repeat;
+
+    /*After we size it*/
+    position: absolute;
+    top:250px;
+    left: 0px;
+    width: 400px;
+    height: 850px;
+
+
+    /*Center the text*/
+    text-align: center;
+    font-size:50px;
+  }
+
+  #right_side{
+    /*After we size it*/
+    position: absolute;
+    top:250px;
+    right: 0px;
+    width: 700px;
+    height: 850px;
+
+
+    /*Center the text*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size:50px;
+  }
+
+  #workExperience{
+    text-align:left;
+    font-size:30px;
+  }
+
+
+
+
+  /*Those are for the different font size or color that are used in the website*/
+  .subtitle{
+  color:#2689A8;
+  font-size:50px;
+  }
+
+  .subtitleSmall{
+    color:#2689A8;
+  font-size:30px;
+  }
+
+  .info{
+    color:black;
+  font-size:30px;
+  }
+
+  .subtitle_right{
+    color:black;
+    font-size:50px;
+    }
+
+
+    /*Moving the line in the right section to make it pretty*/
+    #Line1{
+      position: absolute;
+      width:300px; 
+      right: 200px;
+      top:100px;
+    }
+
+    #Line2{
+      position: absolute;
+      right: 150px;
+      top:400px;
+    }
